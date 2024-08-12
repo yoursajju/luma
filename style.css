@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"inter", sans-serif;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* Blue line Colour change */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav{
+ display: flex;
+ gap: 10px;
+
+}
+main{
+    display: flex;
+}
+
+.left{
+    width: 40%;
+}
+.right viedo{
+    width:60% ;
+    width:100%;
+}
+footer .primary{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+footer .secondary{
+    margin-bottom: 20px;
+
+}
