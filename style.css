@@ -31,7 +31,7 @@ body {
 }
 
 .luma-logo-lg {
-  height: 50px;
+  height: 30px;
   color: rgba(19, 21, 23, 0.36);
 }
 
@@ -55,13 +55,15 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
+  margin-bottom: 30px;
 }
 /* MARK: Luma icon */
 
 header nav {
   display: flex;
   gap: 10px;
+  color: grey;
 }
 
 main {
@@ -82,12 +84,31 @@ main {
     font-weight: 500;
     line-height: 1;
 }
+
+.left p{
+  color: rgb(78, 78, 78);
+  font-size: 20px;
+  line-height: 1.3;
+  
+}
+.left button{
+  background-color: rgb(51, 53, 55);
+color: white;  
+font-size: 20px;
+padding: 0px 16px;
+border-radius: 20px;
+}
 .right {
   width: 60%;
 }
 
 .right video {
   width: 100%;
+}
+/* MARK: Footer */
+footer{
+  border-top: 1px solid rgba(128, 128, 128, 0.29);
+  padding-top: 20px;
 }
 
 footer .primary {
